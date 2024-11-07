@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
+import CustomLink from "./_component/CustomLink";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,6 +35,9 @@ export default function RootLayout({
           
           "
           >
+            <CustomLink url={"/"} text={"Home"}></CustomLink>
+            <CustomLink url="/about" text={"about"}></CustomLink>
+            <CustomLink url="/store" text={"store"}></CustomLink>
             
             <Link className="transition hover:text-blue-200 " href={"/"} >Home </Link>
             <Link className="transition hover:text-blue-200 " href={"/about"} >About </Link>
