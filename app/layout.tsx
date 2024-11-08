@@ -30,8 +30,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <nav className="bg-slate-500 ">
-          <ul className="text-4xl p-4 flex justify-evenly
+        <nav className="bg-white-500 ">
+          <ul className="text-4xl p-4 flex justify-evenly border-b-2 border-red-600 
           
           "
           >
@@ -39,9 +39,9 @@ export default function RootLayout({
             <CustomLink url="/about" text={"about"}></CustomLink>
             <CustomLink url="/store" text={"store"}></CustomLink>
             
-            <Link className="transition hover:text-blue-200 " href={"/"} >Home </Link>
+           {/*  <Link className="transition hover:text-blue-200 " href={"/"} >Home </Link>
             <Link className="transition hover:text-blue-200 " href={"/about"} >About </Link>
-            <Link className="transition hover:text-blue-200 " href={"/store"} >Store </Link>
+            <Link className="transition hover:text-blue-200 " href={"/store"} >Store </Link> */}
           </ul>
 
 
