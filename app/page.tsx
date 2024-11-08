@@ -8,9 +8,9 @@ export default function Home() {
     <>
       <div className="p-4 pt-12 ">
 
-        <main className="px-4 h-5/6 bg-blue-500 flex flex-col justify-evenly items-center ">
+        <main className="px-4 h-5/6 bg-blue-500 flex flex-col justify-evenly items-center md:flex-row">
 
-          <section className=" md:max-w-xl">
+          <section className=" md:max-w-md lg:max-w-lg">
 
             <h1 className="text-[max(4vw,24px)]  font-extrabold font-mono leading-snug tracking-wider ">Welcome User{" "}, to<span className="bg-gradient-to-r from-red-400 via-blue-300 to-green-300 bg-clip-text text-transparent"> DigitalStock</span> test test</h1>
 
